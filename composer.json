@@ -1,0 +1,23 @@
+{
+    "name": "abdukhaligov/laravel-pageable",
+    "type": "plugin",
+    "description": "The Pageable package for Laravel.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0.2",
+        "laravel/framework": "^9.2"
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
