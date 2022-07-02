@@ -1,23 +1,34 @@
 {
-    "name": "abdukhaligov/laravel-pageable",
-    "type": "plugin",
-    "description": "The Pageable package for Laravel.",
-    "keywords": ["framework", "laravel"],
-    "license": "MIT",
-    "require": {
-        "php": "^8.0.2",
-        "laravel/framework": "^9.2"
-    },
-    "extra": {
-        "laravel": {
-            "dont-discover": []
-        }
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "abdukhaligov/laravel-pageable",
+  "description": "The Pageable package for Laravel.",
+  "keywords": [
+    "abdukhaligov",
+    "laravel-pageable",
+    "laravel"
+  ],
+  "homepage": "https://github.com/Abdukhaligov/laravel-pageable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Abdukhaligov Hikmat",
+      "email": "hikmat.pou@gmail.com",
+      "homepage": "https://github.com/Abdukhaligov",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0.2",
+    "laravel/framework": "^9.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Abdukhaligov\\LaravelPageable\\": "src"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
